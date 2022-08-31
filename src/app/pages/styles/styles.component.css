@@ -1,0 +1,12 @@
+.container-styles{
+    height: calc(100vh - 40px);
+    overflow-y: scroll;
+
+}
+.container-styles::-webkit-scrollbar{
+    width: 12px;
+    background-color: #212529;
+}
+.container-styles::-webkit-scrollbar-thumb{
+    background-color: #ffffff29;
+}

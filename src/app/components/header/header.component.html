@@ -1,0 +1,22 @@
+<div class="header bg-dark text-white {{classNavbarHeader}}">
+
+    <div class="tab-index {{activeIndex}} {{closeIndex}}">
+        <div class="tab-app-link" [routerLink]="['/index']" (click)="btnActiveIndex()"  >
+            <span><i class="bi bi-code"></i> index.html</span> 
+        </div>
+        <div class="tab-index-btn" [routerLink]="['/home']" (click)="btnCloseIndex()" ><i class="bi bi-x"></i></div>
+    </div>
+    <div class="tab-styles {{activeStyles}} {{closeStyles}}">
+        <div class="tab-app-link" [routerLink]="['/styles']" (click)="btnActiveStyles()" >
+            <span><i class="bi bi-hash"></i> styles.css</span>
+        </div>
+        <div class="tab-styles-btn" [routerLink]="['/home']" (click)="btnCloseStyles()" ><i class="bi bi-x"></i></div>
+    </div>
+    <div class="tab-app {{activeApp}} {{closeApp}}">
+        <div class="tab-app-link" [routerLink]="['/app']" (click)="btnActiveApp()" >
+            <span><img src="../../../assets/file_type_js_icon_130510.svg "> app.js</span>
+        </div>
+        <div class="tab-app-btn" [routerLink]="['/home']" (click)="btnCloseApp()" ><i class="bi bi-x"></i></div>
+    </div>
+
+</div>

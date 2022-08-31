@@ -1,0 +1,17 @@
+<div class="sidebar bg-dark text-white {{classNavbarHeader}}">
+    <div class="sidebar-btn" (click)="activeNavbar()" ><i class="bi bi-file-earmark"></i></div>
+    <div class="sidebar-container">
+        <p class="fw-bold"> <i class="bi bi-chevron-down"></i> PAGINA-WEB</p>
+
+        <div class="sidebar-html {{activeIndex}}" [routerLink]="['/index']" (click)="btnActiveIndex()" >
+            <p><i class="bi bi-code"></i> index.html</p>
+        </div>
+        <div class="sidebar-css {{activeStyles}}" [routerLink]="['/styles']" (click)="btnActiveStyles()" >
+            <p><i class="bi bi-hash"></i> styles.css</p>
+        </div>
+        <div class="sidebar-js {{activeApp}}" [routerLink]="['/app']" (click)="btnActiveApp()" >
+            <p> <img src="../../../assets/file_type_js_icon_130510.svg "> app.js</p>
+        </div>
+
+    </div>
+</div>

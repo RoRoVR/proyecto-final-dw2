@@ -1,0 +1,14 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.main-container{
+    background-color: #2d333b;
+    color: white;
+}
+.header{
+    display: inline-block;
+        
+}

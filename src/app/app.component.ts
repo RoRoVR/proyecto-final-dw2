@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto-final';
+  classNavbarHeader = 'active';
+  activeIndex = '';
+  activeStyles = '';
+  activeApp = '';
+  closeIndex = 'close';
+  closeStyles = 'close';
+  closeApp = 'close';
 }
